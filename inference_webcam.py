@@ -12,7 +12,7 @@ Example:
         --model-backbone resnet50 \
         --model-checkpoint "PATH_TO_CHECKPOINT" \
         --resolution 1280 720
-
+    python inference_webcam.py --model-type mattingrefine --model-backbone resnet50 --model-checkpoint /home/balin/exper/background/BackgroundMattingV2/checkpoint_pretrain/PyTorch/pytorch_resnet50.pth --resolution 1280 720
 """
 
 import argparse, os, shutil, time
